@@ -1,7 +1,7 @@
 body, html {
                 margin: 0;
                 padding: 0;
-                background-color: #fff;*/
+                background-color: #fff;
                 color: #444452;
                 /*font-family: Apercu,Source Sans Pro,Helvetica,Arial,sans-serif;*/
                 line-height: 1.5;
@@ -71,10 +71,11 @@ body .emoji, html .emoji {
 }
 
 section{
-    /*opacity: 1;*/
-    /*word-spacing: 2px;*/
-    /*letter-spacing: 1px;*/   
+    opacity: 1;
+    word-spacing: 2px;
+    letter-spacing: 1px;   
 }
+
 
 section.fadeIn{
     animation: fadeIn 2s forwards;
@@ -188,7 +189,6 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
       text-transform: uppercase;
       letter-spacing: 2px;
       text-decoration: none;
-      text-fill-color: transparent;
       display: inline-block;
       /*background-image: linear-gradient(to right, #30CFD0 0%, #330867 100%);*/
       animation: .8s shake infinite alternate;
